@@ -1,0 +1,24 @@
+{
+  "name": "tuff",
+  "version": "0.0.1",
+  "description": "New and improved bot setup to replace my old one",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "add gh"
+  },
+  "author": "Austin Albrecht",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "js-yaml": "^3.13.1",
+    "telegraf": "^3.30.1"
+  }
+}
