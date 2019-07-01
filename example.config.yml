@@ -1,0 +1,10 @@
+services:
+  discord:
+    enabled: true
+    token: "token"
+    prefix: "<<"
+    owner: "userID"
+  telegram:
+    enabled: true
+    token: "token"
+    owner: "username"
