@@ -12,7 +12,7 @@ exports.start = async (config, tuff) => {
     let command = ctx.update.message.text.substring(1, cmdEnt[0].length)
     let contents = ctx.update.message.text.substring(cmdEnt[0].length).trim()
 
-    tuff.emit('message', command, contents, {
+    tuff.emit('runCommand', command, contents, {
       'service': 'telegram',
       'ctx': ctx
     })

@@ -1,3 +1,5 @@
+exports.aliases = ['say', 'print']
+
 exports.run = async (message) => {
   message = message.trim()
   if (message.length === 0) {
