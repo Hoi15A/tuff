@@ -1,11 +1,11 @@
 {
   "name": "tuff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "New and improved bot setup to replace my old one",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "./node_modules/.bin/eslint ./"
+    "test": "npx eslint ."
   },
   "repository": {
     "type": "git",

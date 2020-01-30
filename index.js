@@ -18,8 +18,6 @@ try {
 console.log('Starting tuff!\n'.rainbow.underline)
 
 tuff.on('runCommand', async (command, content, origin) => {
-  // console.log('tuff on message:')
-  // console.log(command, content, origin)
   let module = commands.get(command)
 
   // check for aliases if no command is found
@@ -43,8 +41,8 @@ if (!config.services) {
   console.log('No Services defined in config\nExiting...')
   process.exit()
 }
-let s = Object.keys(config.services)
 
+let s = Object.keys(config.services)
 for (let i = 0; i < s.length; i++) {
   if (!config.services[s[i]].enabled) {
     console.log(`${s[i]} is disabled`.red)
